@@ -1,7 +1,11 @@
-import Login from "./pages/auth/Login";
+import AppRoutes from "./routes/AppRoutes";
 
 function App() {
-  return <Login />;
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <AppRoutes />
+    </div>
+  );
 }
 
 export default App;
